@@ -1,0 +1,436 @@
+
+/******************
+Header
+********************/
+
+header {
+	border-bottom: solid 1px;
+	position: relative;
+	width: 100%;
+}
+
+.navwrap {
+	display: inline-block;
+	width: 100%;
+
+}
+
+.logonav {
+
+	max-width: 250px;
+	height: auto;
+	padding-top: 5px;
+	display: inline-block;
+	top: 0;
+	left: 0;
+	margin-left: 30px;
+
+}
+
+
+
+.headernav {
+	display: -webkit-flex;
+     -webkit-flex-direction: row;
+     -webkit-justify-content: space-between;
+     -webkit-flex-wrap: wrap;
+     -webkit-align-items: center;
+     min-height: 70px;
+     max-height: 600px;
+	 max-width: 100%;
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 padding-top: 29px;
+}
+
+	
+
+.headernavli {
+	font-size: 1.5em;
+	padding: 0 90px 0 25px;
+}
+
+a {
+text-decoration: none;
+color: black;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+li {
+list-style-type: none;
+}
+
+/******************
+
+Main
+********************/
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+main {
+	display: block;
+	min-height: 370px;
+	height: auto;
+	width: 100%;
+}
+
+.topcontentcontainer {
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: .1em;
+	font-weight: 600;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 1.5em;
+
+}
+
+p {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	max-width: 75%;
+	margin: 0 auto;
+	letter-spacing: .09em;
+	line-height: 1.5em;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 25px auto 2em;
+    width: 100px;
+}
+
+/******************
+
+Footer
+********************/
+
+footer {
+	border-top: solid 1px;
+	position: relative;
+	padding: 20px;
+
+
+}
+
+.pagesNav {
+	position: absolute;
+	bottom: 20px; 
+	left: 20px;
+
+	
+   
+}
+
+ .pagesNav a {
+ 	font-size: .8em;
+ }
+
+.socialicons { 
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     }
+
+.socialicons li {
+	display: inline-block;
+}
+
+.footericon {
+	max-width: 25px;
+	height: auto;
+	padding: 0 3px 0 5px;
+}
+
+.copywrite {
+	text-align: center;
+	font-size: .8em;
+	padding-top: 75px;
+}
+
+#footercontainer {
+	display: block;
+	clear: both;
+}
+/****************************
+Index
+****************************/
+
+
+
+#mainlanding {
+	background: url('images/piano.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	}
+
+/****************************
+About
+****************************/
+#mainabouttext {
+	margin-top: 3%; 
+}
+
+/****************************
+Repertoire
+****************************/
+	#reptop {
+		background: url(images/bass.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding: 10px 0 50px 0;
+		height: auto;
+		min-height: 40vh;
+	}
+
+	#reptop p, #reptop h2{
+		color: white;
+	}
+
+
+
+	 #reptoptext {
+	 	margin-top: 3%;
+	 }
+
+
+	.songcontainer {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		-webkit-column-gap: 2em;
+		-moz-column-gap: 2em;
+		-webkit-column-width: 200px;
+		-moz-column-width: 200px;
+		font-family: 'Josefin Sans', sans-serif;
+		margin: 30px auto 30px auto;
+		width: 80%;
+	}
+
+    
+	.audioplayer {
+		padding-top: 100px;
+		display: block;	
+		text-align: center;
+	}
+	
+	.audiojs {
+		display: inline-block;
+		margin: 0 auto;
+		width: auto;
+		border-radius: 40px;
+
+
+	}
+
+	.scrubber, .time {
+		display: none;
+	}
+
+	
+	.songcontainer li {
+		line-height: 1.3em;
+		padding-bottom: 5px;
+
+	}
+
+	.songcontainer h2, .songcontainer hr {
+		-webkit-column-span: all;
+		-moz-column-span: all;
+		text-align: center;
+	}
+
+	.songcontainer em {
+		color: gray;
+	}
+
+
+/****************************
+Contact
+****************************/
+
+.maillink, .phonelink {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.maillink img, .phonelink img {
+	width: 70px;
+	 -webkit-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	  -webkit-transition-property: -webkit-transform;
+	  transition-property: transform;
+	  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	  -webkit-transform: translateZ(0);
+	  -ms-transform: translateZ(0);
+	  transform: translateZ(0);
+	  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.maillink img:hover, .phonelink img:hover {
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+.socialcontact {
+	margin: 0 auto;
+}
+
+.socialcontact {
+	display: -webkit-flex;
+     -webkit-flex-direction: row;
+     -webkit-justify-content: center;
+     -webkit-flex-wrap: wrap;
+     -webkit-align-items: center; 
+     margin-bottom: 50px;
+ }
+
+ .socialcontact img {
+ 	padding: 0 25px;
+ 	width: 70px;
+ 	margin: 25px;
+ 	-webkit-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	  -webkit-transition-property: -webkit-transform;
+	  transition-property: transform;
+	  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	  -webkit-transform: translateZ(0);
+	  -ms-transform: translateZ(0);
+	  transform: translateZ(0);
+	  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ }
+
+.socialcontact img:hover {
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+  	transform: scale(1.1);
+  }
+
+/****************************
+Tablet
+****************************/
+
+@media only screen and (max-width:1000px) {
+
+
+
+.logonav {
+	display: block;
+	margin: 0 auto;
+}
+
+.headernav {
+	position: relative;
+}
+
+
+/**************
+.navwrap {
+	display: block;
+}
+	
+.logonav {
+	text-align: center;
+	display: block;
+		
+		
+	}
+
+.headernav {
+	 			 display: block;
+			     
+		
+}
+
+.headernav li {
+	display: inline;
+}
+
+
+**************************/
+
+}
+
+
+/****************************
+Cell
+****************************/
+
+@media only screen and (max-width:425px) {
+	.headernav {
+				display: -webkit-flex;
+			     -webkit-flex-direction: column;
+			     -webkit-justify-content: space-between;
+			     -webkit-flex-wrap: wrap;
+			     margin-top: -10px;
+			     margin-bottom: 10px;
+			}
+
+	.headernavli {
+				
+				padding: 10px 25px 5px 25px;
+
+
+			}
+
+	.logonav {
+		margin-left: 19vw;
+		margin-bottom: -20px;
+
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	
+	.socialicons {
+		display: block;
+		position: static;
+	}
+
+	.pagesNav {
+		display: block;
+		position: static;
+		margin-bottom: 20px;
+	}
+
+	.copywrite {
+		padding-top: 20px;
+	}
+
+
+}
+
+
+
+
+

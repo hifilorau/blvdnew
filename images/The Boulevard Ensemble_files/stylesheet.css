@@ -1,0 +1,87 @@
+
+/******************
+
+Header
+********************/
+
+#logonav {
+
+	max-width: 280px;
+	height: auto;
+	margin-top: 12px;
+	margin-left: 40px;
+}
+
+
+
+.headernav {
+	display: -webkit-flex;
+     -webkit-flex-direction: row;
+     -webkit-justify-content: space-between;
+     -webkit-flex-wrap: wrap;
+	direction: row;
+	flex-wrap: wrap;
+	min-height: 70px;
+	max-height: 600px;
+	max-width: 90%;
+}
+
+.headernav li:first-child {
+	margin-right: auto;
+}	
+
+.headernavli {
+
+	padding: 50px 20px 10px;
+	font-size: 1.5em;
+}
+
+a {
+text-decoration: none;
+color: black;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+li {
+list-style-type: none;
+}
+
+
+
+main {
+	display: block;
+	min-height: 500px;
+	height: auto;
+	width: 100%;
+}
+
+
+main {
+	background: url(images/piano.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+#footernav {
+	display: -webkit-flex;
+     -webkit-flex-direction: row;
+     -webkit-justify-content: space-around;
+     -webkit-flex-wrap: wrap;
+     margin-top: 20px;
+     }
+
+.socialicons {
+	display: -webkit-flex;
+     -webkit-flex-direction: row;
+     -webkit-justify-content: center;
+     -webkit-flex-wrap: wrap;
+     }
+
+.footericon {
+	max-width: 50px;
+	height: auto;
+}
