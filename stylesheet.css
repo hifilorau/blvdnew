@@ -4,16 +4,12 @@ Header
 ********************/
 
 header {
-	border-bottom: solid 1px;
-	position: relative;
+	position: absolute;
 	width: 100%;
+	border-bottom: solid 1px white;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.navwrap {
-	display: inline-block;
-	width: 100%;
-
-}
 
 .logonav {
 
@@ -53,7 +49,7 @@ header {
 
 a {
 text-decoration: none;
-color: black;
+color: white;
 font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -85,10 +81,11 @@ main {
 	height: auto;
 	margin: 0 auto;
 	width: 100%;
+	padding-top: 127px;
 }
 
 h1 {
-	text-align: center;
+	text-align: center
 	font-weight: 600;
 	font-size: 1.5em;
 	letter-spacing: .1em;
@@ -134,15 +131,18 @@ footer {
 	padding: 20px;
 
 
+
 }
 
 .pagesNav {
 	position: absolute;
 	bottom: 20px; 
 	left: 20px;
-
-	
    
+}
+
+footer a {
+	color: black;
 }
 
  .pagesNav a {
@@ -171,7 +171,7 @@ footer {
 	padding-top: 75px;
 }
 
-#footercontainer {
+.footercontainer {
 	display: block;
 	clear: both;
 }
@@ -181,7 +181,7 @@ Index
 
 
 
-#mainlanding {
+.mainlanding {
 	background: url('images/piano.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -193,25 +193,26 @@ Index
 /****************************
 About
 ****************************/
-#mainabouttext {
+.mainabouttext {
 	margin-top: 3%; 
+	margin-bottom: 100px;
 }
 
 /****************************
 Repertoire
 ****************************/
-	#reptop {
-		background: url(images/bass.jpg) no-repeat center center fixed;
+	.reptop {
+		background: url('images/bass.jpg') no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		padding: 10px 0 50px 0;
+		padding: 127px 0 50px 0;
 		height: auto;
 		min-height: 40vh;
 	}
 
-	#reptop p, #reptop h2{
+	.reptop p, .reptop h2{
 		color: white;
 	}
 
@@ -223,22 +224,46 @@ Repertoire
 
 
 	.songcontainer {
+		font-size: 0px;
+		text-align: center;
+
+
+	/*
 		-webkit-column-count: 3;
 		-moz-column-count: 3;
 		-webkit-column-gap: 2em;
 		-moz-column-gap: 2em;
 		-webkit-column-width: 200px;
 		-moz-column-width: 200px;
-		font-family: 'Josefin Sans', sans-serif;
-		margin: 30px auto 30px auto;
-		width: 80%;
+		width: 80%;*/
 	}
 
+	.songcontainer h2 {
+		font-size: 1.5rem;
+	}
+
+	.songli {
+		width : 80%;
+		font-family: 'Josefin Sans', sans-serif;
+		margin: 30px auto;
+		font-size: 1.2rem;
+
+
+	}
+
+	.songli li {
+		width: 33%;
+		display: inline-block;
+		text-align: left;
+		box-sizing: border-box;
+		padding: 0px 25px;
+		vertical-align: top;
+	}
     
 	.audioplayer {
-		padding-top: 100px;
 		display: block;	
 		text-align: center;
+		padding-top: 10px;
 	}
 	
 	.audiojs {
@@ -340,7 +365,9 @@ Tablet
 
 @media only screen and (max-width:1000px) {
 
-
+.songcontainer {
+	width: 90%;
+}
 
 .logonav {
 	display: block;
@@ -349,8 +376,22 @@ Tablet
 
 .headernav {
 	position: relative;
+	padding-top: 5px;
+	min-height: 0px;
+	margin-bottom: 10px;
 }
 
+.songli li{
+	width: 49%;
+}
+
+.headernav li {
+
+}
+
+.topcontentcontainer {
+	padding-top: 180px;
+}
 
 /**************
 .navwrap {
@@ -426,6 +467,10 @@ Cell
 	.copywrite {
 		padding-top: 20px;
 	}
+
+	.topcontentcontainer {
+		padding-top: 265px;
+}
 
 
 }
