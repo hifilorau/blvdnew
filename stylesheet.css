@@ -128,7 +128,7 @@ Footer
 footer {
 	border-top: solid 1px;
 	position: relative;
-	padding: 20px;
+	padding: 0px 20px 20px 0;
 
 
 
@@ -296,7 +296,39 @@ Repertoire
 		color: gray;
 	}
 
+	.music {
+		text-align: center;
 
+		
+	}
+
+	.songblock {
+		display: inline-block;
+		margin: 25px;
+	}
+
+	.songcontent {
+		padding: 25px;
+	}
+
+	.songtitle, .artist {
+		display: block;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	.artist {
+		font-style: italic;
+		font-weight: 800;
+	}
+
+	.songblock hr {
+		padding: 10px 0 10px 0;
+		margin: 10px auto 0;
+	}
+
+	.music hr {
+		margin-bottom: 0;
+	}
 /****************************
 Contact
 ****************************/
@@ -450,6 +482,7 @@ Cell
 
 	footer {
 		text-align: center;
+		padding-top: 20px;
 	}
 
 	
