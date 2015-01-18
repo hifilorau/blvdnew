@@ -60,10 +60,10 @@ header {
 	color: white;
 }
 
+
 a {
-text-decoration: none;
-color: white;
 font-family: 'Josefin Sans', sans-serif;
+text-decoration: none;
 
 }
 
@@ -129,7 +129,7 @@ h2 {
 	letter-spacing: .1em;
 	font-size: 1.75em;
 	font-weight: 600;
-	font-family: 'Open-Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-top: 1.5em;
 
 
@@ -165,14 +165,20 @@ hr {
 	-ms-transform: translateZ(0);
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
 }
 
 .contact-text-link:hover {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
-
 }
+
+.contact-text-link:visited {
+	color: grey;
+}
+
 
 .overlay {
 	background: rgba (0, 0, 0, .8);
@@ -302,42 +308,68 @@ Repertoire
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		padding: 127px 0 50px 0;
+		/*padding: 12em 0 3em 0;*/
 		height: auto;
-		min-height: 40vh;
 	}
+
+	/*.rep-main {
+		background: url('images/bass.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: auto;
+	}*/
 
 	.reptop p, .reptop h2{
 		color: white;
 	}
 
 
+.rep-top-bg {
+		background-color: #171312;
+		background-size: cover;
+		overflow: hidden;
+		min-height: 60vh;
+		padding: 2em 0 4em;
+		opacity: .7;
 
-	 .reptoptext {
-	 	margin-top: 3%;
+	}
 
+.music {
+		color: black;
+		/*max-width: 100%;*/
+		margin:0 auto;
+		width: 75%;
+	}
 
-	 }
+	.music h2 {
+		color: white;
+	}
+
+.samples {
+		/*margin: 3em 0;*/
+		border:1px solid black;
+		border-radius: .5em;
+		padding: 2em 0;
+		text-align: center;
+	}
+
+	.music-bg {
+		background: url("images/instruments_bw.jpg") no-repeat center center fixed;
+		background-size: cover;
+		background-attachment: fixed;
+		padding-top: 3em;
+	}
+
 
 
 	.songcontainer {
-		font-size: 0px;
 		text-align: center;
 		color: black;
-		padding-bottom: em;
+		padding-top: 2em;
+		border-top: black 1px solid;
 
-
-
-
-
-	/*
-		-webkit-column-count: 3;
-		-moz-column-count: 3;
-		-webkit-column-gap: 2em;
-		-moz-column-gap: 2em;
-		-webkit-column-width: 200px;
-		-moz-column-width: 200px;
-		width: 80%;*/
 	}
 
 	.songcontainer h2 {
@@ -345,11 +377,10 @@ Repertoire
 	}
 
 	.songli {
-
 		font-family: 'Josefin Sans', sans-serif;
 		margin: 30px auto;
 		font-size: 1.2rem;
-
+		width: 75%;
 
 	}
 
@@ -382,6 +413,8 @@ Repertoire
 
 	.audiojs .play-pause {
 		padding: 0px;
+		color: red;
+		background-color: red;
 	}
 
 	.scrubber, .time {
@@ -406,16 +439,6 @@ Repertoire
 	}
 
 
-
-	.music {
-		text-align: center;
-		color: black;
-		max-width: 75%;
-		margin:0 auto;
-
-
-	}
-
 	.songblock {
 		box-sizing: border-box;
 		display: inline-block;
@@ -434,7 +457,7 @@ Repertoire
 		background: -ms-linear-gradient(top, #ffffff 0%,#f1f1f1 32%,#e1e1e1 66%,#f6f6f6 100%); /* IE10+ */
 		background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 32%,#e1e1e1 66%,#f6f6f6 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
-		copy
+		opacity: .7;
 	}
 
 	.songblock:before {
@@ -446,7 +469,6 @@ Repertoire
 	}
 
 	.songcontent {
-		padding:;
 		color: black;
 		position: absolute;
 		top: 50%;
@@ -476,6 +498,13 @@ Repertoire
 	.songblock hr {
 		padding: 10px 0 10px 0;
 		margin: -16px auto 0;
+	}
+
+	.song-section-break-line hr {
+		padding: 2em 0 2em:
+		width: 40%;
+
+
 	}
 
 	.music hr {
@@ -567,6 +596,7 @@ Tablet
 .songcontainer {
 	width: 90%;
 	color: black;
+	margin: 0 auto;
 }
 
 .logonav {
@@ -581,12 +611,27 @@ Tablet
 	margin-bottom: 10px;
 }
 
+nav a:selected {
+	border: none;
+	color: white;
+}
+
 .songli li{
 	width: 49%;
 }
 
-.headernav li {
+.headernavli a:hover, .selected {
+	 border-bottom: none;
 
+}
+
+.headernavli a:hover {
+	color: white;
+
+}
+
+.selected {
+	color: red;
 }
 
 .topcontentcontainer {
