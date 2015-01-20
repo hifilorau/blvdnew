@@ -362,8 +362,6 @@ Repertoire
 
 .samples {
 		/*margin: 3em 0;*/
-		border:2px solid black;
-		border-radius: .5em;
 		padding: 2em 0;
 		text-align: center;
 	}
@@ -458,15 +456,16 @@ Repertoire
 		box-sizing: border-box;
 		display: inline-block;
 		margin: 25px;
-		width: 24%;
+		width: 22%;
 		border: black 1px solid;
 		padding: 1.3em;
 		position: relative;
 		overflow: auto;
 		border-radius: 1em;
 		background-color: gray;
-		opacity: .7;
+		opacity: .9;
 		z-index: 1;
+		font-size: 1.3em;
 
 	}
 
