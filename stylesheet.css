@@ -155,7 +155,8 @@ hr {
 }
 
 .contact-text-link {
-	color: red;
+	color: #2b2873;
+	font-weight: 600;
 	font-size: 1.15em;
 	-webkit-transition-duration: 0.6s;
 	transition-duration: 0.6s;
@@ -193,8 +194,8 @@ Footer
 
 footer {
 	position: relative;
-	border-top: solid 3px black;
-	border-bottom: solid 3px black;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
 	padding: 10px 20px 05px 0;
 	min-height: 70px;
 	}
@@ -316,13 +317,14 @@ About
 Repertoire
 ****************************/
 	.reptop {
-		background: url('images/bass.jpg') no-repeat center center fixed;
-		-webkit-background-size: cover;
+		background: url('images/bass.jpg') no-repeat center center fixed;*/
+		/webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		/*padding: 12em 0 3em 0;*/
+		padding: 8em 0 0em 0;
 		height: auto;
+
 	}
 
 	/*.rep-main {
@@ -335,12 +337,12 @@ Repertoire
 	}*/
 
 	.reptop p, .reptop h2{
-		color: white;
+		color: black;
 	}
 
 
 .rep-top-bg {
-		background-color: #171312;
+		background-color: #e2e2e2;;
 		background-size: cover;
 		overflow: hidden;
 		min-height: 60vh;
@@ -717,6 +719,8 @@ nav a:selected {
 	transform: translate (0, -50%);
 }
 
+
+
 }
 
 
@@ -740,13 +744,17 @@ Cell
 
 				padding: 10px 25px 5px 25px;
 
-
 			}
 
 	.logonav {
-		margin-left: 19vw;
+		/*margin-left: 19vw;*/
 		margin-bottom: -20px;
+		text-align: center;
 
+	}
+
+	.logonav img {
+		text-align: center;
 	}
 
 	.footer {
