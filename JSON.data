@@ -1,0 +1,162 @@
+songs:[
+        {
+           song:'Enjoy the Silence',
+           artist:'Depeche Mode'
+
+        },
+
+        {
+           song:'Are You Lonesome Tonight',
+           artist:'Elvis Presley'
+
+        },
+
+        {
+           song:'Toxic',
+           artist:'Britney Spears'
+
+        },
+
+        {
+           song:'Black Hole Sun',
+           artist:'Sound Garden'
+
+        },
+
+        {
+           song:'All of My Love',
+           artist:'Led Zeppelin'
+
+        },
+
+        {
+           song:'What A Wonderful World',
+           artist:'Louis Armstrong'
+
+        },
+
+        {
+           song:'Paranoid Android',
+           artist:'Radiohead'
+
+        },
+
+        {
+           song:'All I Need',
+           artist:'Radiohead'
+
+        },
+
+        {
+           song:'',
+           artist:''
+
+        },
+
+        {
+           song:'Something',
+           artist:'Beatles'
+
+        },
+
+        {
+           song:'Pink Cigarette',
+           artist:'Mr. Bungle'
+        },
+
+        {
+           song:'Rock With You',
+           artist:'Michael Jackson'
+        },
+
+        {
+           song:'Sway',
+           artist:'Dean Martin'
+        },
+
+        {
+           song:'Mad World',
+           artist:'Tears for Fears '
+        },
+
+        {
+           song:'Crazy Little Thing Called Love',
+           artist:'Queen'
+        },
+
+        {
+           song:'Pretty Woman',
+           artist:'Roy Orbison'
+        },
+
+        {
+           song:'To the Last',
+           artist:'James Blake'
+        },
+
+        {
+           song:'To the Last',
+           artist:'James Blake'
+        },
+
+        {
+           song:'Unchained Melody',
+           artist:'The Righteous Brothers'
+        },
+
+        {
+           song:'Let's Stay Together',
+           artist:'The Righteous Brothers'
+        },
+
+        {
+           song:'To the Last',
+           artist:'James Blake'
+        },
+
+        {
+           song:'Everlasting Light',
+           artist:'Black Keys'
+        },
+
+        {
+           song:'One',
+           artist:'U2'
+        },
+
+        {
+           song:'Moon River',
+           artist:'Frank Sinatra'
+        },
+
+        {
+           song:'Like A Prayer',
+           artist:'Madonna'
+        },
+
+        {
+           song:'Smells Like Teen Spirit',
+           artist:'Nirvana'
+        },
+
+        {
+           song:'Time Of Your Life',
+           artist:'Green Day '
+        },
+
+        {
+           song:'Hell',
+           artist:'Squirrel Nut Zippers'
+        },
+
+        {
+           song:'Pursuit of Happiness',
+           artist:'Kid Cudi'
+        },
+
+        {
+           song:'Nothing Compares to You',
+           artist:'Snead O'Connor'
+        }
+
+      ]
